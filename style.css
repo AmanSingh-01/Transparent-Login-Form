@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url('images/project2 bg1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  position: absolute;
+  left: 40%;
+  top: 7%;
+}
+
+.container h1 {
+  color: white;
+  font-size: 25px;
+  margin: 10px 0px;
+  border-bottom: 4px solid purple;
+  width: 45%;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Baloo 2', cursive;
+}
+
+.box {
+  margin: 8px 0px;
+  border-bottom: 2px solid purple;
+  padding-bottom: 2px;
+  width: 100%;
+}
+
+.box input {
+  padding: 2px 2px;
+  background: none;
+  border: none;
+  color: white;
+  font-family: 'Baloo 2', cursive;
+  outline: none;
+  font-size: 15px;
+}
+
+.box i {
+  color: white;
+  margin-right: 8px;
+}
+
+.btn {
+  border: 3px solid purple;
+  font-size: 15px;
+  padding: 5px 12px;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Baloo 2', cursive;
+}
+
+.btn:hover {
+  background-color: white;
+  color: purple;
+  opacity: 0.5;
+}
